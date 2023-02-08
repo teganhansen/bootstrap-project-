@@ -1,8 +1,6 @@
 
-// i couldn't find a way to change font size and margin/paddings in bootstrap
-
 h1 {
-    font-size: 6em;
+    font-size: 3em;
     margin-bottom: 50px;
 }
 h2 {
@@ -32,8 +30,18 @@ body {
     background-color: #8B37FF;
 }
 img {
-    height: 800px;
+    height: 1250px;
 }
 #logo{
     height: 30px;
+}
+
+
+@media (min-width: 665px) {
+    h1 { 
+        font-size: 6em;
+     }
+    img {
+        height: 800px;
+    }
 }

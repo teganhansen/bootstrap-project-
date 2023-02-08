@@ -1,5 +1,5 @@
 h1 {
-  font-size: 6em;
+  font-size: 3em;
   margin-bottom: 50px;
 }
 
@@ -36,9 +36,18 @@ body {
 }
 
 img {
-  height: 800px;
+  height: 1250px;
 }
 
 #logo {
   height: 30px;
+}
+
+@media (min-width: 665px) {
+  h1 {
+    font-size: 6em;
+  }
+  img {
+    height: 800px;
+  }
 }/*# sourceMappingURL=style.css.map */
